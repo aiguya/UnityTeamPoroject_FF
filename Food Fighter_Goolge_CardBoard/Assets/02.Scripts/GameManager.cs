@@ -59,7 +59,6 @@ public class GameManager : MonoBehaviour
 
     public List<GameObject> chickPool = new List<GameObject>();
 
-    
     private void Awake()
     {
         if (Instance == null) Instance = this;
